@@ -17,6 +17,12 @@ We trained Resnet with 10 epochs on the training and test sets. Initially, in th
 
 Finally, we sought to test validate the high accuracies obtained in the previous steps. We sought to see whether our linked system, where we linked our denoising and deblurring models with Resnet, could correctly classify a car given an input image. To test our overall project, we passed in an image of a Toyota Camry Sedan 2012. Our model was able to accurately identify the make, model, and year of the car with confidence 11.2752. The confidence appears to be somewhat low, however given the level of specificity of a car that the model predicts, this confidence level is satisfactory.
 
+<img src = "https://github.com/rohitamar/IdentifyingCarBrandsNoisyImagesCNN/blob/main/blurToClear.png" alt = "Deblurring Resutls" width = "600" />
+
+<img src = "https://github.com/rohitamar/IdentifyingCarBrandsNoisyImagesCNN/blob/main/noiseToClear.png" alt = "Denoising Results" width = "600" />
+
+The above images showcase the results of our deblur and denoise image. As you can see, the autoencoder worked fairly well in removing the noise within the image and then sharpening to match the original image. The below image shows the entire pipeline in action.
+
 <img src="https://github.com/rohitamar/IdentifyingCarBrandsNoisyImagesCNN/blob/daacb672e3a067c7988972e6bd48733726ab0f24/results.png" alt="Final Results Image" width="1000"/>
 
 ## Future Direction
