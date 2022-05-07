@@ -6,3 +6,6 @@ The exponential production of cars has resulted in a need for better vehicle cla
 
 ## Instructions
 
+Run the notebook in the GitHub through Google Colaboratory unless you have a powerful GPU locally. Ensure that you have the appropriate libraries (which are elaborated in the first cell of the notebook) before running the code. 
+
+## Dataset
