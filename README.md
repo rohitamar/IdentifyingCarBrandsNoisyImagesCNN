@@ -17,7 +17,7 @@ We trained Resnet with 10 epochs on the training and test sets. Initially, in th
 
 Finally, we sought to test validate the high accuracies obtained in the previous steps. We sought to see whether our linked system, where we linked our denoising and deblurring models with Resnet, could correctly classify a car given an input image. To test our overall project, we passed in an image of a Toyota Camry Sedan 2012. Our model was able to accurately identify the make, model, and year of the car with confidence 11.2752. The confidence appears to be somewhat low, however given the level of specificity of a car that the model predicts, this confidence level is satisfactory.
 
-<img src="https://github.com/rohitamar/IdentifyingCarBrandsNoisyImagesCNN/blob/daacb672e3a067c7988972e6bd48733726ab0f24/results.png" alt="Final Results Image" width="200"/>
+<img src="https://github.com/rohitamar/IdentifyingCarBrandsNoisyImagesCNN/blob/daacb672e3a067c7988972e6bd48733726ab0f24/results.png" alt="Final Results Image" width="1000"/>
 
 ## Future Direction
 Currently, our model only classifies clear images, blurry, and noised images. In the future, this capability could be extended to images that are both noisy & blurry, as well as images that include harsh angles of rotation. We may utilize many of the techniques suggested by Krause and colleagues in handling vehicle datasets and potentially converting 2D images into 3D scans that may offer more insight into brand localization. We may also attempt to expand the research done by Xinchen Liu and colleagues on a deep learning approach for urban surveillance that utilizes a two pass process of coarse-to-fine and near-to-distant search techniques.
