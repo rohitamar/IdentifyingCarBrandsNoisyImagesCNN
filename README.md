@@ -8,4 +8,6 @@ The exponential production of cars has resulted in a need for better vehicle cla
 
 Run the notebook in the GitHub through Google Colaboratory unless you have a powerful GPU locally. Ensure that you have the appropriate libraries (which are elaborated in the first cell of the notebook) before running the code. 
 
-## Dataset
+## Stanford Cars Dataset and pre-trained models
+
+The models we have trained uses the [Stanford Cars Dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html "Stanford Cars Dataset"). In order to quickly load, partition, and modify the images of the dataset, we utilized PyTorch's DataLoader class. However, to do so, the dataset must be organized in folders representing the different classes within the dataset. The original dataset has not been organized in such a manner; hence, we downloaded the dataset from [this Kaggle link](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset "Kaggle Dataset Link"), which had already organized in this manner.  
