@@ -32,7 +32,7 @@ The above images showcase the results of our deblur and denoise image. As you ca
 
 <figure>
 <img src="images/results.png" alt="results" style="width:100%">
-<figcaption align = "center"><b>Fig.2: Final Results </b></figcaption>
+<figcaption align = "center"><b>Fig.3: Final Results </b></figcaption>
 </figure>
 
 ## Future Direction
